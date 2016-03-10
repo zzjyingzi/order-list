@@ -1,0 +1,269 @@
+html,body,header,section,article,nav,aside,footer,div,ul,ol,li,dl,dt,dd,a,img{margin:0;padding:0;}
+body{font-family: "微软雅黑","黑体","宋体",Arial, Helvetica, sans-serif;font-size: 13px;}
+ul,ol,li{list-style: none outside none;}
+.clearBoth{clear:both;}
+.clearLeft{clear: left;}
+.clearRight{clear: right;}
+.right{float:right;}
+.left{float:left;}
+.after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;}
+.venuesMargin{margin-right: 13px;}
+.alignC{margin: 0 auto;}
+.listR li{float:right;}
+.listL li{float:left;}
+.listR li li,.listL li li{float:none;}
+.hide{display: none;}
+.menu img{border: none;}
+header .menu{width: 1000px;height: 50px;}
+header .menuMain{line-height: 50px;padding-right: 50px;}
+header .menuMain li{border-right: 1px solid #45b8b5;}
+header .menuMain a{display: block;width: 88px;text-align: center;}
+header .menu a:link,header .menu a:active,header .menu a:visited{color: #b2fffd;text-decoration: none;}
+header .menuMain a:hover{background:#238784;color:#ffffff;}
+.standardW{width:1000px;}
+header header {background-color: #f0f0f0;line-height: 32px;}
+header article{background-color: #3ba9a6;}
+.loginWay {color: #545353;}
+.loginWay a{padding: 0 7px;color: #545353;text-decoration: none}
+.loginWay a:hover{text-decoration: underline;}
+.chooseCity{padding-left: 160px;color: #ffffff;font-size: 12px;padding-top: 3px;}
+.chooseCity li{width: 80px;margin-top: 2px;text-align: center;}
+.chooseCity .city{font-size: 10px;color:#B2FFFD;}
+.chooseCity .city a{font-size: 16px;}
+.content article>header{font-size: 23px;color: #586363;padding: 19px 0 19px 5px;border-left: 5px;}
+.orderStyle{width: 289px;height:324px;margin-right: 11px;position: relative;}
+.tabIndex{padding: 7px 0 0 14px;height: 33px;background: #cde5f1;}
+.tabIndex ul{position: relative;bottom: 0;height: 100%;}
+.tabIndex li{position: relative;left: 0;bottom: 0;line-height: 33px;padding: 0 12px;margin-right: 28px;cursor: pointer;}
+.tabIndex li:hover{background: #ffffff;}
+.searchStyle{position: relative;margin-top: 5px;}
+.searchStyle::after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;}
+.searchStyle ul{position: absolute;width: 100%;margin-bottom: 20px;}
+.searchStyle li{line-height: 48px;border: 1px solid #d8d8d8;margin-top: 15px;padding-left: 85px;cursor: pointer;position: relative;}
+.bySports{background: url("../images/sportsType.png") 18px center no-repeat;}
+.byCircle{background: url("../images/landmark.png") 18px center no-repeat;}
+.byStation{background: url("../images/trainIcon.png") 18px center no-repeat;}
+.app{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 187px;
+    height: 62px;
+    padding: 13px 0 0 102px;
+    background-color: #ebebeb;
+    background-image: url("../images/appIcon.png");
+    background-position: 17px center;
+    background-repeat: no-repeat;
+}
+.app span{font-size: 17px;color: #525151;}
+.app p {color: #0394d8;margin-top: 6px;letter-spacing: 1px;}
+.court{background: #f0f0f0;}
+.court>header{background: #ffffff;}
+.searchContent{position: absolute;background-color: #ffffff;left:289px;top:0;border: 1px solid #d8d8d8;padding: 5px; height: 36px;z-index: 999;}
+.venuesType{font-size: 16px;}
+.venuesType>li{width: 33%;}
+.venuesType ul{ border-right: 1px dotted #b2b2b2;width: 303px;padding: 0 10px 28px 7px;margin: 19px auto 5px;}
+.venuesType header{text-align: center;padding-top: 10px;}
+.venuesType header span{display: inline-block;width: 147px;height: 27px; background: #f2bd55;line-height: 27px;color: #ffffff;font-size: 16px;text-shadow: 1px 1px 2px #666666}
+.venuesType .model{background-color: #ffffff;border: 1px solid #cfcfcf;}
+.venuesType .model p{padding-left: 10px;margin: 5px 0 5px 0;font-size: 14px;}
+.support1{background: url("../images/hand01.png") 215px center no-repeat;padding: 0 5px 0 10px;}
+.support2{background: url("../images/hand02.png") 215px center no-repeat;padding: 0 5px 0 10px;}
+.support3{background: url("../images/hand03.png") 215px center no-repeat;padding: 0 5px 0 10px;}
+.venuesType li ul li:not(:first-child){margin-top: 33px;}
+/*结尾*/
+.jiewei {
+    background-color: #333333;
+    clear: both;
+    color: #999999;
+    height: 70px;
+    font-size: 12px;
+}
+.jiewei a{text-decoration: none;color:#666666;}
+.jiewei a:hover{text-decoration: underline;}
+.jiewei_one {
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    width: 1000px;
+}
+.red {color: red;}
+.gray {color: #999999;}
+#slideshow{
+    width: 660px;
+    height: 324px;
+    float: right;
+}
+
+/*slide*/
+#slideshow {
+    width: 698px;
+    height: 324px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    /* background-color: #000000;*/
+}
+#slideshow .container {
+    width: 698px;
+    height: 324px;
+    position: relative;
+    z-index: 10;
+}
+#slideshow .mask {
+    display: none;
+    width: 698px;
+    cursor: pointer;
+    height: 324px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 30;
+}
+#slideshow .caption {
+    width: 580px;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 35;
+}
+#slideshow .caption h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: normal;
+}
+#slideshow .caption h3 a {
+    color: #FFF8D6;
+    padding-bottom: 5px;
+    display: block;
+}
+#slideshow .caption h3 a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+#slideshow .paging {
+    display: none;
+    width: 15px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 35;
+}
+#slideshow .paging a {
+    border-radius: 3px;;
+    background-color: #FFFFFF;
+    display: block;
+    height: 10px;
+    margin-bottom: 5px;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
+#slideshow .paging a:hover, #slideshow .paging a.current {
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+#slideshow .preview {
+    border-radius: 5px;
+    width: 100px;
+    background: #FFFFFF;
+    color: #000000;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    right: 35px;
+    text-align: center;
+    top: 15px;
+    z-index: 35;
+    font-size: 82%;
+}
+#slideshow .preview span {
+    display: block;
+    padding-top: 3px;
+}
+#slideshow .slide {
+    width:698px;
+    height: 324px;
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+}
+.viewStars{color: #3ba7a4;font-size: 12px;}
+.viewStars i{display: inline-block;width: 18px;height: 12px;background: url("../images/stars01.png") center center no-repeat;}
+.viewStars span{color: #fc4801;}
+
+/*场馆细节页*/
+.breadcrumb{clear: both;line-height: 32px;}
+.breadcrumb a{color: #606060;text-decoration: none;}
+.venuesList{width: 744px;background: url("../images/vDetailGradient01.png") repeat-x;}
+.venuesInfo{height: 381px;border: 1px solid #96e2e0;position: relative;}
+.venuesInfo header{line-height: 62px;font-size: 18px;font-weight: 700;text-align: center;color: #0f7e7b;}
+.venuesInfo .right{width: 430px;line-height: 30px;}
+.venuesMap{border: 1px solid #96e2e0;}
+.venuesMap header{line-height: 35px;padding-left: 8px;}
+.venuesMap header a{color: #7a7878;}
+.venuesMap li a {color: #099793;text-decoration: none;font-size: 14px;}
+.venuesMap li a:hover{text-decoration: underline;}
+.vDetailContent aside.right{position: relative;float: right;width: 247px;background-color: #ffffff;z-index: 999;}
+.vImgList{padding:49px 0 0 12px;}
+.vImgList ul{margin-left: 12px;}
+.vImgList ul li{margin-right: 8px;}
+.vImgList img{padding: 2px;border: 1px solid #b7b6b6;}
+.equipment{margin-top: 20px;}
+.equipment header,.package header{padding-left: 17px;color: #ffffff;line-height: 38px;background: url("../images/menuBackImg01.gif")}
+.equipment ul{padding-top: 29px;}
+.equipment li{float: left;width: 72px;padding-top: 38px;background-repeat: no-repeat;overflow: hidden;}
+.equipment li p{margin: 5px 0;text-align: center;}
+.equip01{background-image:url("../images/vDetailEquip02.png");background-position: 0 0;}
+.equip02{background-image:url("../images/vDetailEquip02.png");background-position: -72px 0;}
+.equip03{background-image:url("../images/vDetailEquip02.png");background-position: -144px 0;}
+.equip04{background-image:url("../images/vDetailEquip02.png");background-position: -216px 0;}
+.equip05{background-image:url("../images/vDetailEquip02.png");background-position: -288px 0;}
+.equip06{background-image:url("../images/vDetailEquip02.png");background-position: -360px 0;}
+.equip07{background-image:url("../images/vDetailEquip02.png");background-position: -432px 0;}
+.equip08{background-image:url("../images/vDetailEquip02.png");background-position: -504px 0;}
+.equip09{background-image:url("../images/vDetailEquip02.png");background-position: -576px 0;}
+.equip10{background-image:url("../images/vDetailEquip02.png");background-position: -648px 0;}
+.equip11{background-image:url("../images/vDetailEquip02.png");background-position: -0px -72px;}
+.equip12{background-image:url("../images/vDetailEquip02.png");background-position: -72px -72px;}
+.equip13{background-image:url("../images/vDetailEquip02.png");background-position: -144px -72px;}
+.equip14{background-image:url("../images/vDetailEquip02.png");background-position: -216px -72px;}
+.equip15{background-image:url("../images/vDetailEquip02.png");background-position: -288px -72px;}
+.equip16{background-image:url("../images/vDetailEquip02.png");background-position: -360px -72px;}
+.equip17{background-image:url("../images/vDetailEquip02.png");background-position: -432px -72px;}
+.equip18{background-image:url("../images/vDetailEquip02.png");background-position: -504px -72px;}
+.equip19{background-image:url("../images/vDetailEquip02.png");background-position: -576px -72px;}
+.equip20{background-image:url("../images/vDetailEquip02.png");background-position: -648px -72px;}
+.package ul{width: 666px;margin: 24px auto 0;background-color: #eff5f5;}
+.package ul::after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.package li.packageTitle{color: #ff0000;}
+.package .packageTitle dd{font-size: 17px;border-bottom: 1px solid #ff0000;line-height: 40px;}
+.package dd{font-size: 15px;;float: left;text-align: center;line-height: 73px;}
+.othersVenues {line-height: 30px;padding-left: 7px;}
+.evaluation{float: right;line-height: ;color: #9b9b9b;padding-right: 30px;}
+.vInfoList{float: right;width: 350px;padding-right: 13px;}
+.height2H{height: 60px;}
+.vInfoList a{color: #079fe6;}
+/*色彩列表*/
+.red{background-color: #d84a49;}
+.orange{background-color: #e26f42;}
+.green{background-color: #4dab39;}
+.blue{background-color: #3b8ccb;}
+.brown{background-color: #685652;}
